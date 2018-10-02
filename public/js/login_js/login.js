@@ -13,6 +13,10 @@ $(document).ready(function(){
         });
     });
 
+    // $('#login').om('click', '#loginBtn', function(){
+
+    // });
+
     function saveUser(userInfo){
         $.post("/api/users", userInfo)
         .then(function(){
