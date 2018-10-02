@@ -1,5 +1,5 @@
 $(document).ready(function () {
-    var taskList = $(".taskList")
+    var taskList = $("#list-tasks")
     $('#new-task-form').on("click", "#addTasks", function () {
         event.preventDefault();
         var todo = $("#new-task").val().trim();
@@ -21,7 +21,8 @@ $(document).ready(function () {
             for (var i = 0; i < data.length; i++) {
                 task.push(displayTask(data[i].task));
             }
-            taskList.append(newItem);
+            taskList.append(task);
+            console.log(task);
         })
     }
 
