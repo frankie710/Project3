@@ -3,8 +3,9 @@
  * Copyright 2013-2016 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
-body {
-  background-color: #f8f8f8;
+ body {
+  /* background-color: #f8f8f8; */
+  background-color: #57E86B;
 }
 #wrapper {
   width: 100%;
@@ -12,7 +13,7 @@ body {
 #page-wrapper {
   padding: 0 15px;
   min-height: 568px;
-  background-color: white;
+  background-color:  #78EC6C;
 }
 @media (min-width: 768px) {
   #page-wrapper {
@@ -22,6 +23,8 @@ body {
     border-left: 1px solid #e7e7e7;
   }
 }
+
+/* custom css */
 
 /* .page-header {
   padding-bottom: 9px;
@@ -40,10 +43,27 @@ body {
   font-weight: bold; 
 }
 
+
 .sidebar ul li a, .panel-heading,.form-control, .form-input {
   font-family: 'Patrick Hand', cursive;
   font-size: 20px;
 }
+
+.sidebar ul li a{
+  color: #FF9A1F
+}
+
+/* .sidebar .sidebar-search{
+ } */
+
+ /* .sidebar .sidebar-nav.navbar-collapse{
+ } */
+ 
+
+ #side-menu {
+  background-color: #00954a; 
+ }
+
 
 h1, h2 {
   font-family: 'Patrick Hand', cursive;
@@ -74,7 +94,89 @@ h1, h2 {
 }
 
 
+.navbar {
+  height: 90px;
+  background-color: #00954a; 
+  z-index: 1000;
+}
 
+.navbar-default .navbar-brand {
+  height: 70px;
+  width: 250px;
+  text-align: center;
+  padding-top: 10%;
+  font-size: 250%;
+  color: #ff9a1f;
+}
+
+li.githubs {
+  display: inline;
+}
+
+ul.links {
+  text-align: center;
+  list-style: none;
+  padding: 0;
+
+}
+
+.panel-default>.panel-heading {
+  background-color: #00954a;
+  color: #ff9a1f;
+  font-size: 170%;
+}
+
+.btn-default {
+  background-color: #00954a;
+  color: #ff9a1f;
+  font-family: 'Patrick Hand', cursive;
+  font-size: 150%;
+}
+
+.input-group-btn>.btn {
+  background-color: #00954a;
+}
+
+i.fa-search {
+  color: #ff9a1f;
+  font-size: 15px;
+}
+
+i.fa.fa-user, i.fa.fa-gear, i.fa.fa-sign-out, i.fa.fa-caret-down {
+  background-color: #00954a;
+  color: #ff9a1f;
+}
+
+.navbar-top-links .dropdown-menu li a {
+  background-color: #A4DF56;
+}
+.navbar-top-links .dropdown-user {
+  background-color: #A4DF56;
+}
+
+/* .nav .open>a, .nav .open>a:focus, .nav .open>a:hover  */
+
+.nav .open>a, .nav .open>a:focus, .nav .open>a:hover {
+  background-color: #00954a;
+}
+
+a.dropdown-toggle {
+  color: #00954a;
+}
+
+#addTasks {
+  background-color: #00954a;
+  color: #ff9a1f;
+}
+
+.panel-body {
+  /* background-color: #78EC6C; */
+  background-color: #FDFD96;
+}
+
+
+
+/* template css */
 
 .navbar-top-links {
   margin-right: 0;
@@ -191,7 +293,8 @@ h1, h2 {
 .btn-info.btn-outline:hover,
 .btn-warning.btn-outline:hover,
 .btn-danger.btn-outline:hover {
-  color: white;
+  /* color: white; */
+  color: #A4DF56;
 }
 .chat {
   margin: 0;
