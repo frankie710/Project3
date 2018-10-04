@@ -7,7 +7,7 @@ var connection = mysql.createConnection({
 });
 
 
-connection.query("USE ");
+connection.query("USE User");
 module.exports = function (passport) {
   passport.serializeUser(function (user, done) {
     done(null, user.id);
