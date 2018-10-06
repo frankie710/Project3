@@ -1,6 +1,6 @@
 const mysql = require("MySQL");
 const PassportLocalStrategy = require("passport-local").Strategy;
-var connection = mysql.createConnection({
+const connection = mysql.createConnection({
   host: "localhost",
   user: "root",
   password: ""
